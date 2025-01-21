@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BF04CDFF2D3F42C500F56513 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF04CDF92D3F42C500F56513 /* Preview Assets.xcassets */; };
+		BF04CE002D3F42C500F56513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF04CDFB2D3F42C500F56513 /* Assets.xcassets */; };
+		BF04CE012D3F42C500F56513 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04CDFC2D3F42C500F56513 /* ContentView.swift */; };
+		BF04CE022D3F42C500F56513 /* ViewBuilderPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04CDFD2D3F42C500F56513 /* ViewBuilderPracticeApp.swift */; };
+		BF04CE042D3F434500F56513 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04CE032D3F434500F56513 /* Exercise.swift */; };
+		BF04CE062D3F476000F56513 /* WorkoutGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04CE052D3F476000F56513 /* WorkoutGrid.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BF04CDE82D3F42BC00F56513 /* ViewBuilderPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewBuilderPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF04CDF92D3F42C500F56513 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF04CDFB2D3F42C500F56513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF04CDFC2D3F42C500F56513 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF04CDFD2D3F42C500F56513 /* ViewBuilderPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderPracticeApp.swift; sourceTree = "<group>"; };
+		BF04CE032D3F434500F56513 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		BF04CE052D3F476000F56513 /* WorkoutGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BF04CDEA2D3F42BC00F56513 /* ViewBuilderPractice */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ViewBuilderPractice;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BF04CDE52D3F42BC00F56513 /* Frameworks */ = {
@@ -32,7 +39,7 @@
 		BF04CDDF2D3F42BC00F56513 = {
 			isa = PBXGroup;
 			children = (
-				BF04CDEA2D3F42BC00F56513 /* ViewBuilderPractice */,
+				BF04CDFE2D3F42C500F56513 /* ViewBuilderPractice */,
 				BF04CDE92D3F42BC00F56513 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,27 @@
 				BF04CDE82D3F42BC00F56513 /* ViewBuilderPractice.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BF04CDFA2D3F42C500F56513 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF04CDF92D3F42C500F56513 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF04CDFE2D3F42C500F56513 /* ViewBuilderPractice */ = {
+			isa = PBXGroup;
+			children = (
+				BF04CDFC2D3F42C500F56513 /* ContentView.swift */,
+				BF04CE052D3F476000F56513 /* WorkoutGrid.swift */,
+				BF04CE032D3F434500F56513 /* Exercise.swift */,
+				BF04CDFD2D3F42C500F56513 /* ViewBuilderPracticeApp.swift */,
+				BF04CDFB2D3F42C500F56513 /* Assets.xcassets */,
+				BF04CDFA2D3F42C500F56513 /* Preview Content */,
+			);
+			path = ViewBuilderPractice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +87,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BF04CDEA2D3F42BC00F56513 /* ViewBuilderPractice */,
 			);
 			name = ViewBuilderPractice;
 			packageProductDependencies = (
@@ -109,6 +134,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF04CDFF2D3F42C500F56513 /* Preview Assets.xcassets in Resources */,
+				BF04CE002D3F42C500F56513 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF04CE012D3F42C500F56513 /* ContentView.swift in Sources */,
+				BF04CE062D3F476000F56513 /* WorkoutGrid.swift in Sources */,
+				BF04CE022D3F42C500F56513 /* ViewBuilderPracticeApp.swift in Sources */,
+				BF04CE042D3F434500F56513 /* Exercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
