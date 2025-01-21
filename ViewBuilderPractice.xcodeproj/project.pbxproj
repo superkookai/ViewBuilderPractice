@@ -13,6 +13,7 @@
 		BF04CE022D3F42C500F56513 /* ViewBuilderPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04CDFD2D3F42C500F56513 /* ViewBuilderPracticeApp.swift */; };
 		BF04CE042D3F434500F56513 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04CE032D3F434500F56513 /* Exercise.swift */; };
 		BF04CE062D3F476000F56513 /* WorkoutGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04CE052D3F476000F56513 /* WorkoutGrid.swift */; };
+		BF6A63F92D3F7626002B150C /* CapsuleTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6A63F82D3F7626002B150C /* CapsuleTextStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		BF04CDFD2D3F42C500F56513 /* ViewBuilderPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderPracticeApp.swift; sourceTree = "<group>"; };
 		BF04CE032D3F434500F56513 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		BF04CE052D3F476000F56513 /* WorkoutGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutGrid.swift; sourceTree = "<group>"; };
+		BF6A63F82D3F7626002B150C /* CapsuleTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleTextStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				BF04CDFC2D3F42C500F56513 /* ContentView.swift */,
+				BF6A63F82D3F7626002B150C /* CapsuleTextStyle.swift */,
 				BF04CE052D3F476000F56513 /* WorkoutGrid.swift */,
 				BF04CE032D3F434500F56513 /* Exercise.swift */,
 				BF04CDFD2D3F42C500F56513 /* ViewBuilderPracticeApp.swift */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6A63F92D3F7626002B150C /* CapsuleTextStyle.swift in Sources */,
 				BF04CE012D3F42C500F56513 /* ContentView.swift in Sources */,
 				BF04CE062D3F476000F56513 /* WorkoutGrid.swift in Sources */,
 				BF04CE022D3F42C500F56513 /* ViewBuilderPracticeApp.swift in Sources */,

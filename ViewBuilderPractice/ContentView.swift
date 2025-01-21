@@ -19,6 +19,15 @@ struct ContentView: View {
             Text("Workout Summary")
                 .font(.title)
             
+            HStack {
+                Text("Brench Press")
+                    .capsuleTextStyle()
+                Text("Dead Lift")
+                    .capsuleTextStyle()
+                Text("Squats")
+                    .capsuleTextStyle()
+            }
+            
             WorkoutGrid {
                 Text("Name")
                     .font(.system(size: 15,weight: .semibold))
